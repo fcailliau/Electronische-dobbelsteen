@@ -3,7 +3,7 @@ int buttonPin = 13; //pins ingeven
 void setup() {
     pinMode(buttonPin, INPUT_PULLUP);
   Serial.begin(115200);
-  randomSeed(analogRead(0));
+  randomSeed(analogRead(0)); //echt random nummers, niet altijd dezelfde lijst
 }
 
 void loop() {
